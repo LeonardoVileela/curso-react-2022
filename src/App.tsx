@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Game } from "./components/Game"
+import './App.css'
 
 function App() {
 
@@ -37,7 +38,20 @@ function App() {
         value={nameGame}
         autoComplete="off" />
 
-      <button onClick={createGame}>Adicionar Game</button>
+      <br />
+
+      <button
+        onClick={createGame}
+        style={{
+          marginTop: '10px',
+          backgroundColor: '#8257e6',
+          border: 0,
+          padding: '6px 12px',
+          color: '#FFF'
+        }}
+
+      >Adicionar Game
+      </button>
 
     </>
   );

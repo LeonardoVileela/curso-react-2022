@@ -5,6 +5,10 @@ type GameProps = {
 
 export function Game(props: GameProps) {
     return (
+        <>
         <div>{props.name}</div>
+        <br />
+        </>
+        
     );
 }
