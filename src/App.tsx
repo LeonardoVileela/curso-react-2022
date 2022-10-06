@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Game } from "./components/Game"
 import './App.css'
+import Routes from "./Routes";
 
 function App() {
 
@@ -22,6 +23,8 @@ function App() {
 
   return (
     <>
+      <Routes />
+
       {
         games.map(
           game => {
